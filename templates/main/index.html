@@ -21,15 +21,12 @@
     </nav>
 </div>
 <div id="image-container" class="hero">
-    <img id="myImg" class="myimg" src="/static/images/1.JPG" alt="1.jpg">
-    <img id="myImg" class=" myimg" src="/static/images/2.JPG" alt="2.jpg">
-    <img id="myImg" class="myimg" src="/static/images/3.JPG" alt="3.jpg">
-    <img id="myImg" class="myimg" src="/static/images/4.JPG" alt="4.jpg">
-    <img id="myImg" class="myimg" src="/static/images/5.JPG" alt="5.jpg">
-    <img id="myImg" class="myimg" src="/static/images/6.JPG" alt="6.jpg">
-    <img id="myImg" class="myimg" src="/static/images/7.JPG" alt="7.jpg">
-    <img id="myImg" class="myimg" src="/static/images/8.JPG" alt="8.jpg">
-    <img id="myImg" class="myimg" src="/static/images/11.JPG" alt="9.jpg">
+    {% for image in images %}
+
+    <img id="myImg" class="myimg" src="{{ image.image.url }}" alt="">
+
+    {% endfor %}
+
 
 </div>
 
