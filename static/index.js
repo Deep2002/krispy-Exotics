@@ -14,6 +14,18 @@ function myFunction() {
         imgs[6].className = "test";
         imgs[7].className = "test";
         imgs[8].className = "test";
+        imgs[9].className = "test";
+        imgs[10].className = "test";
+        imgs[11].className = "test";
+        imgs[12].className = "test";
+        imgs[13].className = "test";
+        imgs[14].className = "test";
+        imgs[15].className = "test";
+        imgs[16].className = "test";
+        imgs[17].className = "test";
+        imgs[18].className = "test";
+        imgs[19].className = "test";
+        imgs[20].className = "test";
 
 
     } else {
@@ -26,27 +38,18 @@ function myFunction() {
         imgs[6].className = "remove-test";
         imgs[7].className = "remove-test";
         imgs[8].className = "remove-test";
+        imgs[9].className = "remove-test";
+        imgs[10].className = "remove-test";
+        imgs[11].className = "remove-test";
+        imgs[12].className = "remove-test";
+        imgs[13].className = "remove-test";
+        imgs[14].className = "remove-test";
+        imgs[15].className = "remove-test";
+        imgs[16].className = "remove-test";
+        imgs[17].className = "remove-test";
+        imgs[18].className = "remove-test";
+        imgs[19].className = "remove-test";
+        imgs[20].className = "remove-test";
 
     }
 }
-
-
-var title = document.getElementById("myTitle");
-var sticky = title.offsetTop;
-
-function myFunction2() {
-    if (window.pageYOffset > sticky) {
-        title.classList.add("sticky");
-    } else {
-        title.classList.remove("sticky");
-    }
-}
-
-
-// function myFunction3() {
-//     if (window.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         imgs.className = "testt";
-//     } else if (window.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//         imgs.className.remove = "testt";
-//     }
-// }
